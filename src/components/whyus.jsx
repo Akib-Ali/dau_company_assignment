@@ -3,6 +3,7 @@ import { LayoutGroup } from 'framer-motion'
 import techcrunchlogo from "../images/techcrunchlogo.webp"
 import cnbc from "../images/cnbc.png"
 import yahoo from "../images/Yahoo-logo.png"
+import { Divider } from '@chakra-ui/react'
 
 
 export const WhyUs=()=>{
@@ -31,7 +32,7 @@ export const WhyUs=()=>{
 
         
         <div style={{marginTop:"-60px" , position :"relative"}} >
-        <Box width={["95%", "75%"]}m="auto" backgroundColor="white" h="200px" pl="50px" borderRadius="10px">
+        <Box width={["95%", "75%"]}m="auto" backgroundColor="white" h="200px" pl="50px" pr="50px" borderRadius="10px">
 
        <SimpleGrid columns={[2, null, 4]} spacing='30px'>
      
@@ -48,6 +49,8 @@ export const WhyUs=()=>{
      })}
     </SimpleGrid>
 
+    <Divider mt="30px"/>
+
 
     <Box mt="20px">
          
@@ -55,7 +58,7 @@ export const WhyUs=()=>{
             {Whyuscompanylogo.map((alllogo,index)=>{
 
                 return(
-                    <Box boxSize={"sm"} key={index} border="1px solid blue" width={"100%"} h={"100%"}>
+                    <Box boxSize={"sm"} key={index}  width={"100%"} h={"100%"}>
                     <Image src={alllogo} h="100px" w="100px" />
 
                     </Box>
