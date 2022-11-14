@@ -4,6 +4,7 @@ import { Whyoverlapbg } from "./whyusoverlapbg"
 import LargeWithLogoLeft from "./footer"
 import { ContactUsMain } from "./contactusmain"
 import CaptionCarousel from "./imagecrausel"
+import ThreeTierPricing from "./PricingTable/basics"
 
 export const Home=()=>{
 
@@ -15,6 +16,7 @@ export const Home=()=>{
 
        <Whyoverlapbg/>
         <WhyUs/>
+        <ThreeTierPricing/>
         <ContactUsMain/>
         <LargeWithLogoLeft/>
       
