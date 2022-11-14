@@ -1,6 +1,7 @@
 import { WhyUs } from "./whyus"
 import { Box } from "@chakra-ui/react"
 import { Whyoverlapbg } from "./whyusoverlapbg"
+import LargeWithLogoLeft from "./footer"
 
 export const Home=()=>{
 
@@ -10,6 +11,7 @@ export const Home=()=>{
 
        <Whyoverlapbg/>
         <WhyUs/>
+        <LargeWithLogoLeft/>
         
         
 
