@@ -1,4 +1,5 @@
 import { Box,Text } from "@chakra-ui/react"
+import { Divider } from '@chakra-ui/react'
 
 export const ContactUs=()=>{
 
@@ -18,15 +19,17 @@ export const ContactUs=()=>{
 
 
     return(
-        <Box border="2px solid red" width={"50%"}>
+        <Box  width={["99%","45%"]}  pl="10px">
             <Text fontSize={"3xl"} fontWeight={"700"}>Contact our sales team</Text>
             <Text>Let's explore how Notion can work for you</Text>
 
            {salesTeamRules.map((elem,index)=>{
 
             return(
-           <Box backgroundColor={"grey"} gap="20px">
-            <Text>{elem}</Text>
+           <Box>
+            <Text backgroundColor={"#FCFDF2"} mt="0px" padding={"20px"}>{elem}</Text>
+            <Divider /> 
+            
            </Box>
             )
            })}
