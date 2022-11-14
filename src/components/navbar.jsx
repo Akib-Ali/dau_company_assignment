@@ -19,6 +19,7 @@ import {
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 
+
 const Links = ['Home', 'Products','Services','Team','Portfolio','Blog' ,'Contact'];
 
 const NavLink = ( {children, children: ReactNode }) => (
@@ -28,7 +29,7 @@ const NavLink = ( {children, children: ReactNode }) => (
     rounded={'md'}
     _hover={{
       textDecoration: 'none',
-       bg: useColorModeValue('gray.200', 'gray.700'),
+       bg: useColorModeValue('gray.500', 'gray.500'),
     }}
     href={'#'}>
     {children}
@@ -60,9 +61,10 @@ export default function Simple() {
                 <NavLink  key={link}>{link}</NavLink>
               ))}
 
-              <HStack>
-                <Link>Go to blog</Link>
-              </HStack>
+              {/* <HStack>
+                <Link>Go to blog</Li
+                
+              </HStack> */}
     
             </HStack>
 
@@ -99,7 +101,7 @@ export default function Simple() {
         ) : null}
       </Box>
 
-      <Box p={4}>Main Content Here</Box>
+    
     </>
   );
 }
