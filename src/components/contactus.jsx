@@ -19,7 +19,7 @@ export const ContactUs=()=>{
 
 
     return(
-        <Box  width={["95%","45%"]}  pl="10px">
+        <Box  width={["90%","45%"]}  pl="5px">
             <Text fontSize={"3xl"} fontWeight={"700"}>Contact our sales team</Text>
             <Text>Let's explore how Notion can work for you</Text>
 
