@@ -4,7 +4,8 @@ import { Whyoverlapbg } from "./whyusoverlapbg"
 import LargeWithLogoLeft from "./footer"
 import { ContactUsMain } from "./contactusmain"
 import CaptionCarousel from "./imagecrausel"
-import ThreeTierPricing from "./PricingTable/basics"
+import { AllPlans } from "./PricingTable/Allplan"
+// import ThreeTierPricing from "./PricingTable/basics"
 
 export const Home=()=>{
 
@@ -16,7 +17,8 @@ export const Home=()=>{
 
        <Whyoverlapbg/>
         <WhyUs/>
-        <ThreeTierPricing/>
+        {/* <ThreeTierPricing/> */}
+        <AllPlans/>
         <ContactUsMain/>
         <LargeWithLogoLeft/>
       

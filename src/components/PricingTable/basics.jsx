@@ -72,23 +72,28 @@ export default function ThreeTierPricing() {
             <List spacing={3} textAlign="start" px={12}>
               <ListItem>
                 <ListIcon as={FaCheckCircle} color="green.500" />
-                unlimited build minutes
+                10GB Storage
               </ListItem>
               <Divider/>
               <ListItem>
                 <ListIcon as={FaCheckCircle} color="green.500" />
-                Lorem, ipsum dolor.
+                10 Emails
               </ListItem>
               <Divider/>
               <ListItem>
                 <ListIcon as={FaCheckCircle} color="green.500" />
-                5TB Lorem, ipsum dolor.
+                10 Domains
+              </ListItem>
+              <Divider/>
+              <ListItem>
+                <ListIcon as={FaCheckCircle} color="green.500" />
+                1GB Bandwidth
               </ListItem>
               <Divider/>
             </List>
             <Box w="80%" pt={7}>
               <Button w="full" colorScheme="green" >
-                Start trial
+                SignUp
               </Button>
             </Box>
           </VStack>
@@ -136,29 +141,25 @@ export default function ThreeTierPricing() {
               <List spacing={3} textAlign="start" px={12}>
                 <ListItem>
                   <ListIcon as={FaCheckCircle} color="green.500" />
-                  unlimited build minutes
+                  25GB Storage
                 </ListItem>
                 <Divider/>
                 <ListItem>
                   <ListIcon as={FaCheckCircle} color="green.500" />
-                  Lorem, ipsum dolor.
+                  25 Emails
                 </ListItem>
                 <Divider/>
                 <ListItem>
                   <ListIcon as={FaCheckCircle} color="green.500" />
-                  5TB Lorem, ipsum dolor.
+                  25 Domains
                 </ListItem>
                 <Divider/>
                 <ListItem>
                   <ListIcon as={FaCheckCircle} color="green.500" />
-                  5TB Lorem, ipsum dolor.
+                  25 Bandwidth
                 </ListItem>
                 <Divider/>
-                <ListItem>
-                  <ListIcon as={FaCheckCircle} color="green.500" />
-                  5TB Lorem, ipsum dolor.
-                </ListItem>
-                <Divider/>
+                
               </List>
               <Box w="80%" pt={7}>
                 <Button w="full" colorScheme="green">
@@ -192,17 +193,22 @@ export default function ThreeTierPricing() {
             <List spacing={3} textAlign="start" px={12}>
               <ListItem>
                 <ListIcon as={FaCheckCircle} color="green.500" />
-                unlimited build minutes
+                50GB Storage
               </ListItem>
               <Divider/>
               <ListItem>
                 <ListIcon as={FaCheckCircle} color="green.500" />
-                Lorem, ipsum dolor.
+                50Emails
               </ListItem>
               <Divider/>
               <ListItem>
                 <ListIcon as={FaCheckCircle} color="green.500" />
-                5TB Lorem, ipsum dolor.
+                 50 Domains
+              </ListItem>
+              <Divider/>
+              <ListItem>
+                <ListIcon as={FaCheckCircle} color="green.500" />
+                 5GB Bandwidth
               </ListItem>
               <Divider/>
             </List>

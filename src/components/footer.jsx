@@ -1,4 +1,12 @@
 import { ReactNode } from 'react';
+import { BsYoutube } from "react-icons/bs"
+import { BsTwitter} from "react-icons/bs"
+import {BsFacebook} from "react-icons/bs"
+import {TiSocialLinkedin} from "react-icons/ti"
+import {GrInstagram} from "react-icons/gr"
+import {HiMail} from "react-icons/hi"
+
+
 
 import {
   Box,
@@ -8,6 +16,7 @@ import {
   Stack,
   Text,
   useColorModeValue,
+  Flex
 } from '@chakra-ui/react';
 
 const Logo = (props) => {
@@ -42,7 +51,7 @@ export default function LargeWithLogoLeft() {
               <Logo color={useColorModeValue('gray.700', 'white')} />
             </Box>
             <Text fontSize={'sm'}>
-              © 2022 Chakra Templates. All rights reserved
+              © 2022 Copy rights. All rights reserved
             </Text>
           </Stack>
           <Stack align={'flex-start'}>
@@ -78,7 +87,20 @@ export default function LargeWithLogoLeft() {
             <Link href={'#'}>LinkedIn</Link>
           </Stack>
         </SimpleGrid>
+
+       
+
       </Container>
+      <Box display="flex" width="70%"  gap="30px"  margin={"auto"} height="50px">
+ 
+        
+ <BsYoutube/>
+     <BsTwitter/>
+     <BsFacebook/>
+     <TiSocialLinkedin/>
+     <GrInstagram/>
+     <HiMail/>
+     </Box> 
     </Box>
   );
 }

@@ -1,11 +1,11 @@
-import { BasicsPlan } from "./basics"
+import ThreeTierPricing from "./basics"
 
 export const AllPlans=()=>{
 
 
     return(
         <div>
-            <BasicsPlan/>
+           <ThreeTierPricing/>
         </div>
     )
 }
