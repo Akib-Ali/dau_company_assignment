@@ -70,23 +70,18 @@ import {
                 </select>
               </FormControl>
 
+              <FormControl id="countryorreligion" isRequired>
+                <FormLabel> write any thing</FormLabel>
+
+                 <textarea 
+                rows="5" cols="25">
+                 write any thing here..
+                </textarea>
+
+                
+               </FormControl>
 
 
-              <FormControl id="password" isRequired>
-                <FormLabel>Password</FormLabel>
-                <InputGroup>
-                  <Input type={showPassword ? 'text' : 'password'}  placeholder="password"/>
-                  <InputRightElement h={'full'}>
-                    <Button
-                      variant={'ghost'}
-                      onClick={() =>
-                        setShowPassword((showPassword) => !showPassword)
-                      }>
-                      {showPassword ? <ViewIcon /> : <ViewOffIcon />}
-                    </Button>
-                  </InputRightElement>
-                </InputGroup>
-              </FormControl>
               <Stack spacing={10} pt={2}>
 
               <Text>
